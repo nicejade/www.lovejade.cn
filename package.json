@@ -1,0 +1,61 @@
+{
+  "name": "vuepress-web-app",
+  "author": "nicejade",
+  "version": "0.1.3",
+  "description": "Web applications built with Vuepress",
+  "scripts": {
+    "start": "npx vuepress dev docs",
+    "build": "npx vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "precommit-msg": "echo '🚧 Pre-commit checks...' && exit 0",
+    "prettier": "prettier --write '**/*.md'",
+    "prettier-watch": "onchange '**/*.md' -- prettier --write {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicejade/vuepress-web-app"
+  },
+  "dependencies": {
+    "autosize": "^4.0.2",
+    "axios": "^0.19.0",
+    "date-fns": "^1.30.1",
+    "element-ui": "^2.10.1",
+    "github-markdown-css": "^3.0.1",
+    "markdown-it-task-checkbox": "^1.0.6",
+    "md5": "^2.2.1",
+    "node-polyglot": "^2.3.1",
+    "raw-loader": "^3.0.0",
+    "vuepress": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
+    "@vuepress/plugin-nprogress": "^1.0.0-rc.1",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
+    "onchange": "^6.0.0",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run precommit-msg && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/**.{js,json,pcss,md,vue}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 120,
+    "proseWrap": "never"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  }
+}
