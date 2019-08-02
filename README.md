@@ -1,6 +1,6 @@
 <p align="center"><a href="https://www.lovejade.cn/?utm_source=github.com" target="_blank"><img width="100"src="https://raw.githubusercontent.com/nicejade/www.lovejade.cn/master/docs/.vuepress/public/logo.png"></a></p>
 
-<h1 align="center">🚧幽居空谷轩(域名备案中)</h1>
+<h1 align="center">幽居空谷轩</h1>
 
 <div align="center">
   <strong>
