@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 contacts:
   - href: //about.me/nicejade/
     desc: About Me

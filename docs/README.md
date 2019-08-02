@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 contacts:
   - href: //nicelinks.site?utm_source=nice.lovejade.cn
     desc: 倾城
