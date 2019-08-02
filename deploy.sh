@@ -10,7 +10,7 @@ yarn run build
 cd ./docs/dist
 
 # 如果是发布到自定义域名
-echo 'nice.lovejade.cn' > CNAME
+echo 'www.lovejade.cn' > CNAME
 
 git init
 git add -A
@@ -20,5 +20,5 @@ git commit -m 'deploy update 🎉'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:nicejade/vuepress-web-app.git master:gh-pages
+git push -f git@github.com:nicejade/www.lovejade.cn.git master:gh-pages
 cd -
