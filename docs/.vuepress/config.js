@@ -16,7 +16,6 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  ga: 'UA-86109050-8',
   updatePopup: true,
   locales: {
     '/': {
@@ -50,6 +49,11 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
     '@vuepress/nprogress',
+    [
+      '@vuepress/google-analytics', {
+        ga: 'UA-86109050-8'
+      }
+    ],
     [
       '@vuepress/pwa', {
         serviceWorker: true,
