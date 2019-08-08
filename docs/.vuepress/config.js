@@ -49,18 +49,10 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
     '@vuepress/nprogress',
+    '@vuepress/pwa',
     [
       '@vuepress/google-analytics', {
         ga: 'UA-86109050-8'
-      }
-    ],
-    [
-      '@vuepress/pwa', {
-        serviceWorker: true,
-        updatePopup: {
-          message: '🎉 发现新内容可用 ✏️',
-          buttonText: '刷新'
-        }
       }
     ]
   ]
