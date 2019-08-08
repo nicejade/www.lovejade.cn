@@ -33,6 +33,7 @@
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
     "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
     "@vuepress/plugin-nprogress": "^1.0.0-rc.1",
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
     "husky": "^3.0.0",
     "lint-staged": "^9.2.0",
     "onchange": "^6.0.0",
