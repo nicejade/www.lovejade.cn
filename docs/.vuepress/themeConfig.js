@@ -4,15 +4,18 @@ module.exports = {
   repo: 'nicejade/www.lovejade.cn',
   editLinks: false,
   docsDir: './dist',
-  algolia: {
-    apiKey: '6290673b2059b2332d64c13d248877ad',
-    indexName: 'lovejade',
-    inputSelector: '',
-    debug: false
-  },
+  // 开启 vuepress 内置搜索
+  search: true,
+  searchMaxSuggestions: 10,
+  // algolia: {
+  //   apiKey: '6290673b2059b2332d64c13d248877ad',
+  //   indexName: 'lovejade',
+  //   inputSelector: '',
+  //   debug: false
+  // },
   comment: {
-    clientID: 'Iv1.13c6bee268cb5242',
-    clientSecret: 'b8cfaf8072483e9284468176b4b863833285d6e7',
+    clientID: 'ca88ac4a7b6ff8b64d00',
+    clientSecret: '556f72ac84f3f71db43c6eeeaa716c03c4c06419',
     repo: 'www.lovejade.cn',
     owner: 'nicejade',
     admin: ['nicejade'],

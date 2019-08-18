@@ -10,7 +10,7 @@
             {{ item.description }}
           </div>
         </div>
-        <img class="link-icon" :src="item.icon" :alt="item.title">
+        <img v-if="!isOnMobile" class="link-icon" :src="item.icon" :alt="item.title">
       </div>
     </el-card>
   </div>
@@ -19,7 +19,12 @@
 <script>
 export default {
   name: "ArticleList",
-
+  
+  data() {
+    return {
+      isOnMobile: window.innerWidth < 768
+    }
+  },
   computed: {
     frontmatter () {
       return this.$page.frontmatter
@@ -38,9 +43,16 @@ export default {
 </script>
 
 <style lang="stylus">
+@media (max-width: 768px) {
+  .article-list .el-card .content .left{
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+
 .article-list
   .el-card
-    margin 10px
+    margin 10px 0
     cursor pointer
     position relative
     .content
@@ -55,13 +67,13 @@ export default {
           padding-bottom 4px
           color #333
           &:hover
-            color #409eff
+            color #3eaf7c
         .description
           color #707780
           font-size 16px
       .link-icon
         position absolute
-        right 0
+        right calc(10px + .5rem)
         top 50%
         bottom 0
         transform translateY(-50%)

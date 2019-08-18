@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 如何选定搭建个人独立博客工具
+    description: 身处当前数字化社会，打造个人品牌，越发显得重要（自我推销）。对于从事技相关的人群，欲要树立并长时间保持自己的个人品牌，最便捷的方法无疑是：坚持长时间高质量输出原创文章。就择取合适的博文平台，也是项技术活儿；本文主旨，就针对这承载文字的各类平台，结合其功能特点，探讨下其优劣所在，以便可为更多朋友，就如何选择博文平台诉求，提供些参考。
+    link: vuepress-hexo-jekyll-ghost-gitbook-hugo-solo_compare-personal-website-generator
   - title: 如何优雅处理「快应用」数据请求
     description: 查阅快应用开发文档，可以知道官方提供了数据请求接口；对于如何使用，文档中也给出了示例，但很显然，这在实际项目中，不够优雅且更不高效，所以需要对其进行再封装，使得可以大幅提升开发效率，同时也令整个代码优雅、便于维护。所以在此篇文章的存在，旨在于讨论下如何优雅处理快应用数据请求。
     link: how-to-elegantly-handle-quickapp-request

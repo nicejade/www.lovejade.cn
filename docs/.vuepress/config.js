@@ -21,11 +21,11 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '幽居空谷轩',
-      description: '繁华尽处，寻一无人山谷，建一木制小屋，铺一青石小路，与你晨钟暮鼓，安之若素。'
+      description: '绝代有佳人，幽居在空谷。天寒翠袖薄，日暮倚修竹'
     },
     '/en/': {
       lang: 'en-US',
-      title: 'LOVE JADE HOME',
+      title: 'Love Jade Home',
       description: 'Wherever you go， whatever you do， I will be right here waiting for you.'
     }
   },
