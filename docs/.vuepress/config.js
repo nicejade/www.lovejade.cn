@@ -16,7 +16,6 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  updatePopup: true,
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -49,7 +48,15 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
     '@vuepress/nprogress',
-    '@vuepress/pwa',
+    [
+      '@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: {
+          message: "发现新内容可用",
+          buttonText: "刷新"
+        }
+      }
+    ],
     [
       '@vuepress/google-analytics', {
         ga: 'UA-86109050-8'
