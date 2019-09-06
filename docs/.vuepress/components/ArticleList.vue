@@ -35,13 +35,13 @@ export default {
 <style lang="stylus">
 .article-list
   .el-card
-    margin 10px
+    margin 10px 0
     cursor pointer
     .title
       font-size 18px
       padding-bottom 4px
       &:hover
-        color #409eff
+        color #3eaf7c
     .description
       color #707780
       font-size 16px

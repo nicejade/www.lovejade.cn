@@ -10,7 +10,7 @@
             {{ item.description }}
           </div>
         </div>
-        <img v-if="!isOnMobile" class="link-icon" :src="item.icon" :alt="item.title">
+        <img class="link-icon" :src="item.icon" :alt="item.title">
       </div>
     </el-card>
   </div>
@@ -21,9 +21,7 @@ export default {
   name: "ArticleList",
   
   data() {
-    return {
-      isOnMobile: window.innerWidth < 768
-    }
+    return {}
   },
   computed: {
     frontmatter () {
@@ -47,6 +45,9 @@ export default {
   .article-list .el-card .content .left{
     width: 100% !important;
     margin-right: 0 !important;
+  }
+  .article-list .el-card .content .link-icon {
+    display: none;
   }
 }
 
