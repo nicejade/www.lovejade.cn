@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: JavaScript 之 import VS require
+    description: 自从有了 Es6 模块系统后，在各种场景，可以愉悦借助 import/export，来充作模块加载方案。同时，你可能也会看到 import 与 export default，或基于 CommonJS 规范的 require 与 module.exports 等诸多用法；本篇文章，旨在探讨 JavaScript 模块化体系中：ES6 模块与 CommonJS 模块的差异，以及各自用法注意事项等。
+    link: js-import-export-vs-require-module-exports
   - title: 如何选定搭建个人独立博客工具
     description: 身处当前数字化社会，打造个人品牌，越发显得重要（自我推销）。对于从事技相关的人群，欲要树立并长时间保持自己的个人品牌，最便捷的方法无疑是：坚持长时间高质量输出原创文章。就择取合适的博文平台，也是项技术活儿；本文主旨，就针对这承载文字的各类平台，结合其功能特点，探讨下其优劣所在，以便可为更多朋友，就如何选择博文平台诉求，提供些参考。
     link: vuepress-hexo-jekyll-ghost-gitbook-hugo-solo_compare-personal-website-generator

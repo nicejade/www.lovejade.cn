@@ -9,6 +9,10 @@ items:
     description: Arya，是一款基于 Vue、Vditor，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
     icon: https://raw.githubusercontent.com/nicejade/markdown-online-editor/master/src/assets/images/logo.png
     link: https://markdown.lovejade.cn/?lovejade.cn&pid=applist
+  - title: 为高效而生：Arya Jarvis
+    description: 荀子在《劝学》曰：君子生非异也，善假于物也。对于重复而精确性的事物，理想的目标是：有贴心工具加以协助，使得可以用更便捷的方式处理；Github 创建仓库：ARYA JARVIS，即是为此而做的尝试 ── 她旨在为开发人员节省更多时间、精力以及体力。
+    icon: https://raw.githubusercontent.com/nicejade/arya-jarvis/master/assets/images/logo.png
+    link: https://www.jeffjade.com/2019/08/25/156-arya-jarvis-born-for-efficiency/?lovejade.cn&pid=applist
   - title: 基于 Vue-Cli3 构建的脚手架模版
     description: 此为基于 Vue-Cli3 搭建的开箱即用 Vue 脚手架模版， 致力于探究更高效地构建优质 Web 应用。
     icon: https://vue-cli3.lovejade.cn/img/logo.82b9c7a5.png
