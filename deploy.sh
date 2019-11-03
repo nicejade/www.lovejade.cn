@@ -12,6 +12,8 @@ cd ./docs/dist
 # 如果是发布到自定义域名
 echo 'www.lovejade.cn' > CNAME
 
+echo 'google.com, pub-8586652723015758, DIRECT, f08c47fec0942fa0' > ads.txt
+
 git init
 git add -A
 git commit -m 'deploy update 🎉'
