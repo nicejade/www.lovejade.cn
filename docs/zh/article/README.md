@@ -1,6 +1,12 @@
 ---
 component: ArticleList
 items:
+  - title: 如何快速删除 Git 仓库新增修改
+    description: 荀在使用 Git 这款版本控制工具，来管理项目代码，蛮多的时候，会涉及到“删除 Git 仓库新增修改”这样的诉求；如果能快速优雅做到，将会促进开发效率；这篇文章即在于，从不同诉求角度，来逐一探讨：“如果快速删除 Git 仓库新增修改”。
+    link: how-to-quickly-delete-git-repository-new-changes
+  - title: 为高效而生：Arya Jarvis
+    description: 荀子在《劝学》曰：君子生非异也，善假于物也。对于重复而精确性的事物，理想的目标是：有贴心工具加以协助，使得可以用更便捷的方式处理；Github 创建仓库：ARYA JARVIS，即是为此而做的尝试 ── 她旨在为开发人员节省更多时间、精力以及体力。而此篇文章的存在，介绍 ARYA JARVIS 的同时，也分享下关于对善假于物的理解。
+    link: arya-jarvis-born-for-efficiency
   - title: JavaScript 之 import VS require
     description: 自从有了 Es6 模块系统后，在各种场景，可以愉悦借助 import/export，来充作模块加载方案。同时，你可能也会看到 import 与 export default，或基于 CommonJS 规范的 require 与 module.exports 等诸多用法；本篇文章，旨在探讨 JavaScript 模块化体系中：ES6 模块与 CommonJS 模块的差异，以及各自用法注意事项等。
     link: js-import-export-vs-require-module-exports
