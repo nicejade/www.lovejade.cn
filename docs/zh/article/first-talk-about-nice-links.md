@@ -15,7 +15,7 @@ meta:
 
 <!-- more -->
 
-> **题记：**又一天结束了。除过又增加了一堆揉皱的为纸处，眼前仍然没有一个字。第三天重蹈覆辙。三天以后，竟然仍是一片空白。叫天天不应，叫地地不灵。开始在记谙不停地转圈圈走，走，走，像磨道的一头驴。从高烧似的激烈一直走到满头热汗变为冰凉。冰凉的汗水使燃烧的思索冷静了下来。冷静在这种时候可以使人起死回生。—— 路遥[《早晨从中午开始》](https://blog.lovejade.cn/2016/02/26/the-morning-started-at-noon-1.html)
+> **题记**：又一天结束了。除过又增加了一堆揉皱的为纸处，眼前仍然没有一个字。第三天重蹈覆辙。三天以后，竟然仍是一片空白。叫天天不应，叫地地不灵。开始在记谙不停地转圈圈走，走，走，像磨道的一头驴。从高烧似的激烈一直走到满头热汗变为冰凉。冰凉的汗水使燃烧的思索冷静了下来。冷静在这种时候可以使人起死回生。—— 路遥[《早晨从中午开始》](https://blog.lovejade.cn/2016/02/26/the-morning-started-at-noon-1.html)
 
 ![倾城之链](//image.nicelinks.site/nice-fantasy.jpg)
 
@@ -61,6 +61,29 @@ meta:
 > `https://domainname.com/` <span style="color:green">💯✔</span>️ `https://nice.domainname.com/` <span style="color:green">☂✔</span>️ `https://domainname.com/niceuser` <span style="color:red">✘</span>️️
 
 在此之上，还须得有着「优质内容」，在保证原创基础之上，能给人以有用或有趣，如增长见闻、提供便利、赏心悦目，凡此种种，皆无不可；再有就是一些网站本身应有的品质，譬如：排版简洁，画风耐看，访问安全，启动快速，适配良好，凡此等等，不一而足。
+
+## 如何访问[「倾城之链」](https://nicelinks.site?utm_source=github.com)
+
+* **WEB 浏览器**：为便捷用户访问，有为[「倾城之链」](https://nicelinks.site?utm_source=github.com)注入 [Pwa](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/pwa-tutorial.md) 部分功能，您可通过现代浏览器访问 [https://nicelinks.site](https://nicelinks.site?utm_source=github.com) （推荐使用 `Chrome`），可将其“**添加至主屏幕**”，它将为您创建与原生应用类似的桌面图标，以供您下次可便捷且快速打开。
+
+> **备注**：当您在移动设备浏览器点击“**添加到主屏幕**”后，如未得到预期结果，需要您主动进行设置；可在设备`设置`项，找到`权限管理`，进而开启“**桌面快捷方式**”权限即可；这在不同供应商的手机设备间，步骤会有所差别。
+
+* **快应用**：目前[倾城之链(快应用版)](https://github.com/nicejade/nicelinks-quick-app)已在 `OPPO`、`vivo`、`小米`、`魅族`等平台上线；如果您使用 `Android` 手机，可以在*应用商店*、_负一屏_、*浏览器*等场景搜索`倾城之链`，便可**秒开**使用，亦可保存在桌面；也可以在手机[倾城之链(网页版)](https://nicelinks.site?utm_source=github.com)，点击**快应用中打开**即可(仅限于已上线平台)；未上线平台机型，可参见[倾城之链 - 快应用版](https://github.com/nicejade/nicelinks-quick-app#倾城之链快应用版)，下载[快应用调试器](https://github.com/nicejade/awesome-quickapp#调试器下载)扫码体验。
+
+* **小程序**：在初步完成 Web、「快应用」等版本蛮久以后，最近（2019.10）有基于 `mpvue` 构建了[微信「小程序」版本](https://github.com/nicejade/nicelinks-miniprogram)，通过微信扫码、或者在微信搜索「倾城之链」即可访问。
+
+<div align="center">
+  <img src="https://image.nicelinks.site/nicelinks-miniprogram-code.jpeg" width="300px" alt="倾城之链小程序码"></img>
+</div>
+
+* **桌面应用**：如果您想在 `MacOS`, `Windows` 或 `Linux` 中，获得更快捷的访问体验，您可以通过 [Nativefier](https://github.com/jiahaog/nativefier)（使任何网页成为桌面应用程序的一个命令行工具），轻松创建桌面版[「倾城之链」](https://nicelinks.site?utm_source=github.com)应用，只需运行以下命令即可：
+
+```bash
+npm install nativefier -g
+nativefier --name "倾城之链" "https://nicelinks.site/"
+```
+
+**备注**：如果您使用最新版本的 Chrome，用其访问 [https://nicelinks.site](https://nicelinks.site?utm_source=github.com) ，在地址栏的末尾，点击 `⊕` 符号，即可快速生成桌面版本「倾城之链」；而且，这这个独立应用中，浏览器插件扩展都在；除此外，浏览器上涉及的[倾城之链](https://nicelinks.site?utm_source=github.com)的外链，也可以右键选择在这个桌面应用中打开，NICE。
 
 ## **加入[倾城之链](https://nicelinks.site/?utm_source=nice.lovejade.cn)群聊**
 
