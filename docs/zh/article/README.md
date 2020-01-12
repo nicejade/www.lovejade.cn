@@ -1,8 +1,14 @@
 ---
 component: ArticleList
 items:
+  - title: 如何为项目编写良好 README
+    description: README，它是别人对项目了解、印象的第一来源；尤其是针对开源项目，相当之重要：好比颜值之于一个人，主页之于一个公司；但很多项目并未重视这一点；各种仓库，浩如烟海，没有简洁、明晰的介绍，教人如何耐心去看？本篇文章的存在，即是为了改善这种情况。它将指导您如何写出一篇友好、易读的 README ，同时提供一键生成专业 README（模版）的工具，从而为广大开发者，解决如何书写良好 README 之烦忧；同时为诸多阅读者，缓解没有清晰 README 一窥项目主旨的苦恼。
+    link: how-to-write-a-good-readme-for-your-project
+  - title: 前端利器之 npx 使用纪要
+    description: Node.js，如今已经是前端开发不可或缺的组成部分；npm 则是 Node.js 默认的、以 JavaScript 编写的软件包管理系统； 而 npx 是 npm 软件包运行器，使用它，能够无需显式安装即可帮助执行 npm 软件包。它有很多用处，本就从其主要使用场景角度，来介绍下该命令。
+    link: how-to-use-npm-npx-tutorial
   - title: 如何快速删除 Git 仓库新增修改
-    description: 荀在使用 Git 这款版本控制工具，来管理项目代码，蛮多的时候，会涉及到“删除 Git 仓库新增修改”这样的诉求；如果能快速优雅做到，将会促进开发效率；这篇文章即在于，从不同诉求角度，来逐一探讨：“如果快速删除 Git 仓库新增修改”。
+    description: 在使用 Git 这款版本控制工具，来管理项目代码，蛮多的时候，会涉及到“删除 Git 仓库新增修改”这样的诉求；如果能快速优雅做到，将会促进开发效率；这篇文章即在于，从不同诉求角度，来逐一探讨：“如果快速删除 Git 仓库新增修改”。
     link: how-to-quickly-delete-git-repository-new-changes
   - title: 为高效而生：Arya Jarvis
     description: 荀子在《劝学》曰：君子生非异也，善假于物也。对于重复而精确性的事物，理想的目标是：有贴心工具加以协助，使得可以用更便捷的方式处理；Github 创建仓库：ARYA JARVIS，即是为此而做的尝试 ── 她旨在为开发人员节省更多时间、精力以及体力。而此篇文章的存在，介绍 ARYA JARVIS 的同时，也分享下关于对善假于物的理解。
