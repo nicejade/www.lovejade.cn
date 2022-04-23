@@ -1,9 +1,13 @@
 <template>
   <div class="contact-moudle">
-    <a v-for="item in contacts"
-      :href="item.href" :key="item.type"
+    <a
+      v-for="item in contacts"
+      :href="item.href"
+      :key="item.href"
       class="link-item"
-      target="_blank" rel="noreferrer noopener">
+      target="_blank"
+      rel="noreferrer noopener"
+    >
       {{ item.desc }}
     </a>
   </div>
@@ -11,18 +15,18 @@
 
 <script>
 export default {
-  name: "Contact",
+  name: 'Contact',
 
   computed: {
     contacts() {
-      return this.$page.frontmatter.contacts;
+      return this.$page.frontmatter.contacts
     }
   },
 
   mounted() {},
 
   methods: {}
-};
+}
 </script>
 
 <style lang="stylus">
