@@ -1,7 +1,7 @@
 {
   "name": "vuepress-web-app",
   "author": "nicejade",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Web applications built with Vuepress",
   "scripts": {
     "start": "npx vuepress dev docs",
