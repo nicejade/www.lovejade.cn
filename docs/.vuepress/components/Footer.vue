@@ -1,7 +1,7 @@
 <template>
   <div class="icp">
     <span>Copyright © {{ year }}</span>
-    <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="noopener" class="link">粤ICP备17099767号-2</a>
+    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" class="link">粤ICP备17099767号-2</a>
     <img
       src="https://lovejade.oss-cn-shenzhen.aliyuncs.com/zero.gif"
       alt="深圳市市场监督管理局企业主体身份公示"
